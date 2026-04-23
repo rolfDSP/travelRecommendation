@@ -1,0 +1,43 @@
+body {
+    background-image: url("background.jpg"); /* your image */
+    background-repeat: no-repeat;            /* prevent tiling */
+    background-size: cover;                  /* fill entire page */
+    background-position: center center;      /* keep centered */
+    background-attachment: fixed;            /* optional: stays fixed when scrolling */
+    margin: 0;                               /* remove default spacing */
+}
+nav {
+    display: flex;               /* Put everything in one line */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;   /* Dark blue */
+    padding: 10px;
+}
+
+nav a {
+    color: white;                /* White text */
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#searchbar input,
+#searchbar button {
+    padding: 6px 10px;
+    margin-left: 5px;
+}
+
+#searchbar button {
+    background-color: #0055aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchbar button:hover {
+    background-color: #0077dd;
+}
